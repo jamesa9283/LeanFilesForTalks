@@ -1,0 +1,8 @@
+[package]
+name = "talks"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.31.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "8d0ed030182a0bd96fe70257d11bb0cda5685597"}
